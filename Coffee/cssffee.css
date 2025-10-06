@@ -1,0 +1,125 @@
+html{
+    box-sizing:border-box;
+}
+.parent-head{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.heading01{
+    height: 49px;
+    width:100%;
+    background-color:  rgba(67, 43, 2, 0.836);
+    text-align:center;
+    color:white;
+    font-family: Roboto;
+}
+.bg01{
+    background-color:  rgb(197, 171, 129); 
+    height:660px;
+}
+td{
+    border:0px solid black;
+    padding:8px;
+}
+.line{
+    border-bottom:2px solid orange;
+}
+.name{
+    border:2px solid orange;
+    padding:2px;
+    border-radius:1.5em;
+}
+fieldset{
+    border:2px solid orange;
+    padding:0px 20px;
+    border-radius:1.5em;
+    margin: 12px;
+}
+legend{
+    color:orange;
+    padding: 0px 8px;
+}
+.item-count{
+    width:25px;
+}
+.item-name{
+    text-align:left;
+    width:270px;
+    font-family:Georgia;
+}
+.item-cost{
+    width: 30px;
+    text-align:right;
+}
+.item-prop{
+    font-size:12px;
+    text-align:left;
+    color:brown;
+}
+.box-head{
+    font-family:Arial;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color:brown;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    gap: 95px;
+}
+.out-box{
+    width:420px;
+    background: rgb(197, 171, 129); 
+}
+.in-box-left{
+    width:385px;
+    background: rgba(225, 217, 217, 0.952);
+    height:289px;
+    padding:2px 12px;
+    border-radius:0.5em;
+}
+.in-box-right-up{
+    width:385px;
+    background: rgba(225, 217, 217, 0.952);
+    height:150px;
+    padding:2px 12px;
+    border-radius:0.5em;
+}
+.in-box-right-down{
+    width:385px;
+    background: rgba(225, 217, 217, 0.952);
+    height:210px;
+    padding:2px 12px;
+    border-radius:0.5em;
+}
+.foot-box{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+}
+.foot-left{
+    width:160px;
+    text-align:left;
+}
+.foot-right{
+    width:160px;
+    text-align:right;
+}
+.foot-right td{
+    width: 150px;
+}
+.parent-order{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.place-order{
+    border:2px solid orange;
+    background-color: rgba(225, 217, 217, 0.952);
+    border-radius:1.5em;
+    text-align:center;
+    width:70%;
+    font-family:Roboto;
+}
